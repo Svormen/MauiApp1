@@ -26,9 +26,9 @@
                 SemanticProperties.Description="Sum Grid game." />
 
             <Button
-                x:Name="CounterBtn"
+                x:Name="ControlButton"
                 Text="Click here" 
-                SemanticProperties.Hint="Counts the number of times you click"
+                SemanticProperties.Hint="Button for starting the game"
                 Clicked="OnCounterClicked"
                 HorizontalOptions="Center" />
         </VerticalStackLayout>
