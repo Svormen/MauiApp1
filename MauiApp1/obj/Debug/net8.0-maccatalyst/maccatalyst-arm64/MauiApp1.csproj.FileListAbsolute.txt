@@ -254,9 +254,6 @@
 /Users/ssvorada/Projects/MauiApp1/MauiApp1/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/libxamarin-dotnet-nativeaot.a
 /Users/ssvorada/Projects/MauiApp1/MauiApp1/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/libxamarin-dotnet.a
 /Users/ssvorada/Projects/MauiApp1/MauiApp1/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/libxamarin-dotnet.dylib
-/Users/ssvorada/Projects/MauiApp1/MauiApp1/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/Microsoft.Maui.Controls.HotReload.Forms.dll
-/Users/ssvorada/Projects/MauiApp1/MauiApp1/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/Microsoft.VisualStudio.DesignTools.MobileTapContracts.dll
-/Users/ssvorada/Projects/MauiApp1/MauiApp1/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/Microsoft.VisualStudio.DesignTools.TapContract.dll
 /Users/ssvorada/Projects/MauiApp1/MauiApp1/obj/Debug/net8.0-maccatalyst/maccatalyst-arm64/mauiimage.inputs
 /Users/ssvorada/Projects/MauiApp1/MauiApp1/obj/Debug/net8.0-maccatalyst/maccatalyst-arm64/mauifont.inputs
 /Users/ssvorada/Projects/MauiApp1/MauiApp1/obj/Debug/net8.0-maccatalyst/maccatalyst-arm64/mauisplash.inputs
@@ -302,4 +299,3 @@
 /Users/ssvorada/Projects/MauiApp1/MauiApp1/obj/Debug/net8.0-maccatalyst/maccatalyst-arm64/MauiApp1.pdb
 /Users/ssvorada/Projects/MauiApp1/MauiApp1/obj/Debug/net8.0-maccatalyst/maccatalyst-arm64/MauiApp1.genruntimeconfig.cache
 /Users/ssvorada/Projects/MauiApp1/MauiApp1/obj/Debug/net8.0-maccatalyst/maccatalyst-arm64/ref/MauiApp1.dll
-/Users/ssvorada/Projects/MauiApp1/MauiApp1/obj/Debug/net8.0-maccatalyst/maccatalyst-arm64/MauiApp1.sourcelink.json
