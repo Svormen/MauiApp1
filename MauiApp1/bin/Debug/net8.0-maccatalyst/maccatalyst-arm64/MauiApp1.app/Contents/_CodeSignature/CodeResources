@@ -10,7 +10,7 @@
 		</data>
 		<key>Resources/Assets.car</key>
 		<data>
-		acvJcRMgM/qblqrQ4CfgsHo9itc=
+		hz7TYbOhXchePXkUzc+NY3idHRY=
 		</data>
 		<key>Resources/MauiInfo.plist</key>
 		<data>
@@ -32,6 +32,10 @@
 		<data>
 		aMzKOgohzGAv/lLBBlKjq/Ct6ig=
 		</data>
+		<key>Resources/digits.png</key>
+		<data>
+		44fsBJL2awf7YlHsChtMaBDnOLw=
+		</data>
 		<key>Resources/dotnet_bot.png</key>
 		<data>
 		egvqYQJu98U5bepNqiiYGWJc9As=
@@ -51,14 +55,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/3g+C9c4pd9vM9GbBsPT8cS4fXlQv6v6+8IyhgPvB60=
+			an7J9suBSTFSimJdlKwWf6MjlQ65TBOvKZl4+hgly0E=
 			</data>
 		</dict>
 		<key>MonoBundle/MauiApp1.pdb</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ABJxjaTgUuIfEU9xucBfmOsROEX8Sr+NgtOkycqzHN8=
+			RyW4xtPfiGQ6EA5gotYs/+2eGkepvVpBhOL8+2HjHlc=
 			</data>
 		</dict>
 		<key>MonoBundle/Microsoft.CSharp.dll</key>
@@ -1654,7 +1658,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			t/SgH7xlS3y2Z1nYygbMLOw/IuWV3g1HW8ObwMQPdk0=
+			1DBQlvZ8ESL5qOtAW3pCsoZoK85C//Vm7XhL5q1jbQc=
 			</data>
 		</dict>
 		<key>Resources/MauiInfo.plist</key>
@@ -1690,6 +1694,13 @@
 			<key>hash2</key>
 			<data>
 			/pivYVdUHD7ChxCYuFQd16qpZbftUsb/YE4NjSFPMfQ=
+			</data>
+		</dict>
+		<key>Resources/digits.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			yu0IsmHKAHlDb56M8F2IzHbbgs8E9UXqanMQ2ceXalM=
 			</data>
 		</dict>
 		<key>Resources/dotnet_bot.png</key>

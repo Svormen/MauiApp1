@@ -11,5 +11,10 @@
         Title="Home"
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
+    
+    <ShellContent
+        Route="Rules"
+        ContentTemplate="{DataTemplate local:RulesPage}" />
+
 
 </Shell>
