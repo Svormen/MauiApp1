@@ -15,7 +15,7 @@
                 SemanticProperties.Description="Digits 1 to 9" />
 
             <Label
-                Text="Hello!"
+                Text="Helloo!"
                 Style="{StaticResource Headline}"
                 SemanticProperties.HeadingLevel="Level1" />
 
@@ -29,7 +29,7 @@
                 x:Name="ControlButton"
                 Text="Click here" 
                 SemanticProperties.Hint="Button for starting the game"
-                Clicked="OnCounterClicked"
+                Clicked="OnContinueClicked"
                 HorizontalOptions="Center" />
         </VerticalStackLayout>
     </ScrollView>
