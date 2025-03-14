@@ -27,8 +27,8 @@
 
             <Button
                 x:Name="ControlButton"
-                Text="Click here" 
-                SemanticProperties.Hint="Button for starting the game"
+                Text="Continue to Rules" 
+                SemanticProperties.Hint="Button for showing rules of the game"
                 Clicked="OnContinueClicked"
                 HorizontalOptions="Center" />
         </VerticalStackLayout>
