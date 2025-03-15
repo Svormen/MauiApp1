@@ -7,7 +7,7 @@
             Padding="30,0"
             Spacing="25">
             <Label
-                Text="Game"
+                Text="Sum Grid"
                 HorizontalOptions="Center"
                 VerticalOptions="Center"
                 Style="{StaticResource Headline}"
