@@ -2,6 +2,40 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiApp1.GamePage">
+
+    <ContentPage.Resources>
+        <Style x:Key="BlueBox"
+                TargetType="Label">
+            <Setter Property="BackgroundColor"
+                    Value="#3b80ee"/>
+            <Setter Property="TextColor"
+                    Value="White"/>
+            <Setter Property="FontSize"
+                    Value="24"/>
+            <Setter Property="HorizontalOptions"
+                    Value="Center"/>
+            <Setter Property="VerticalOptions"
+                    Value="Center"/>
+            <Setter Property="Padding"
+                    Value="10"/>
+        </Style>
+
+        <Style x:Key="PlayableCell"
+                TargetType="Label">
+            <Setter Property="BackgroundColor"
+                    Value="#f0f0f0"/>
+            <Setter Property="FontSize"
+                    Value="24"/>
+            <Setter Property="TextColor"
+                    Value="Black"/>
+            <Setter Property="HorizontalOptions"
+                    Value="Center"/>
+            <Setter Property="VerticalOptions"
+                    Value="Center"/>
+            <Setter Property="Padding"
+                    Value="15"/>
+        </Style>
+    </ContentPage.Resources>
     <ScrollView>
         <VerticalStackLayout
             Padding="30,0"
@@ -12,7 +46,97 @@
                 VerticalOptions="Center"
                 Style="{StaticResource Headline}"
                 SemanticProperties.HeadingLevel="Level1"/>
-        
+
+            <Frame CornerRadius="15"
+                    Padding="20"
+                    BackgroundColor="LightGray"
+                   BorderColor="Black">
+                <VerticalStackLayout>
+                    <Label Text="Sum Grid"
+                            FontSize="24"
+                            FontAttributes="Bold"
+                            HorizontalOptions="Center"/>
+
+                    <Grid ColumnDefinitions="*,Auto,Auto,Auto"
+                          RowDefinitions="*,Auto,Auto,Auto"
+                          Padding="10"
+                          ColumnSpacing="10"
+                          RowSpacing="10"
+                          BackgroundColor="Transparent">
+
+                        <Label Grid.Row="0"
+                                Grid.Column="0"
+                                BackgroundColor="LightGray"/>
+
+                        <Label Grid.Row="0"
+                                Grid.Column="1"
+                                Text="12"
+                                Style="{StaticResource BlueBox}"/>
+                        <Label Grid.Row="0"
+                                Grid.Column="2"
+                                Text="18"
+                                Style="{StaticResource BlueBox}"/>
+                        <Label Grid.Row="0"
+                                Grid.Column="3"
+                                Text="14"
+                                Style="{StaticResource BlueBox}"/>
+
+                        <Label Grid.Row="1"
+                                Grid.Column="0"
+                                Text="10"
+                                Style="{StaticResource BlueBox}"/>
+                        <Label Grid.Row="2"
+                                Grid.Column="0"
+                                Text="15"
+                                Style="{StaticResource BlueBox}"/>
+                        <Label Grid.Row="3"
+                                Grid.Column="0"
+                                Text="20"
+                                Style="{StaticResource BlueBox}"/>
+
+                        <Label Grid.Row="1"
+                                Grid.Column="1"
+                                Text="1"
+                                Style="{StaticResource PlayableCell}"/>
+                        <Label Grid.Row="1"
+                                Grid.Column="2"
+                                Text="2"
+                                Style="{StaticResource PlayableCell}"/>
+                        <Label Grid.Row="1"
+                                Grid.Column="3"
+                                Text="3"
+                                Style="{StaticResource PlayableCell}"/>
+
+                        <Label Grid.Row="2"
+                                Grid.Column="1"
+                                Text="4"
+                                Style="{StaticResource PlayableCell}"/>
+                        <Label Grid.Row="2"
+                                Grid.Column="2"
+                                Text="5"
+                                Style="{StaticResource PlayableCell}"/>
+                        <Label Grid.Row="2"
+                                Grid.Column="3"
+                                Text="6"
+                                Style="{StaticResource PlayableCell}"/>
+
+                        <Label Grid.Row="3"
+                                Grid.Column="1"
+                                Text="7"
+                                Style="{StaticResource PlayableCell}"/>
+                        <Label Grid.Row="3"
+                                Grid.Column="2"
+                                Text="8"
+                                Style="{StaticResource PlayableCell}"/>
+                        <Label Grid.Row="3"
+                                Grid.Column="3"
+                                Text="9"
+                                Style="{StaticResource PlayableCell}"/>
+                    </Grid>
+                </VerticalStackLayout>
+            </Frame>
+
+
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>
